@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RonyKorea - iOS 앱 개발자</title>
+    <meta name="description" content="혁신적인 iOS 앱을 개발하는 RonyKorea의 포트폴리오입니다.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>RonyKorea</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">홈</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#apps" class="nav-link">앱</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">소개</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">연락처</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">혁신적인 iOS 앱을 만듭니다</h1>
+                <p class="hero-subtitle">사용자 경험을 최우선으로 하는 아름답고 직관적인 iOS 애플리케이션을 개발합니다.</p>
+                <div class="hero-buttons">
+                    <a href="#apps" class="btn btn-primary">앱 보기</a>
+                    <a href="#contact" class="btn btn-secondary">연락하기</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="phone-mockup">
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Apps Section -->
+    <section id="apps" class="apps">
+        <div class="container">
+            <h2 class="section-title">나의 iOS 앱</h2>
+            <p class="section-subtitle">App Store에서 만나볼 수 있는 제작 앱들입니다.</p>
+            
+            <div class="apps-grid">
+                <!-- App 1 -->
+                <div class="app-card">
+                    <div class="app-icon">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <h3 class="app-title">Photo Editor Pro</h3>
+                    <p class="app-description">전문적인 사진 편집 기능을 제공하는 직관적인 포토 에디터 앱</p>
+                    <div class="app-features">
+                        <span class="feature-tag">필터</span>
+                        <span class="feature-tag">편집</span>
+                        <span class="feature-tag">공유</span>
+                    </div>
+                    <div class="app-links">
+                        <a href="#" class="app-store-btn">
+                            <i class="fab fa-apple"></i>
+                            App Store
+                        </a>
+                    </div>
+                </div>
+
+                <!-- App 2 -->
+                <div class="app-card">
+                    <div class="app-icon">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <h3 class="app-title">Task Manager</h3>
+                    <p class="app-description">일상의 할 일을 효율적으로 관리할 수 있는 스마트한 태스크 매니저</p>
+                    <div class="app-features">
+                        <span class="feature-tag">할 일 관리</span>
+                        <span class="feature-tag">알림</span>
+                        <span class="feature-tag">통계</span>
+                    </div>
+                    <div class="app-links">
+                        <a href="#" class="app-store-btn">
+                            <i class="fab fa-apple"></i>
+                            App Store
+                        </a>
+                    </div>
+                </div>
+
+                <!-- App 3 -->
+                <div class="app-card">
+                    <div class="app-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3 class="app-title">Health Tracker</h3>
+                    <p class="app-description">건강한 라이프스타일을 위한 종합 건강 관리 애플리케이션</p>
+                    <div class="app-features">
+                        <span class="feature-tag">운동 기록</span>
+                        <span class="feature-tag">식단 관리</span>
+                        <span class="feature-tag">수면 추적</span>
+                    </div>
+                    <div class="app-links">
+                        <a href="#" class="app-store-btn">
+                            <i class="fab fa-apple"></i>
+                            App Store
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">왜 제 앱을 선택해야 할까요?</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>아름다운 디자인</h3>
+                    <p>최신 iOS 디자인 가이드라인을 따르는 직관적이고 아름다운 사용자 인터페이스</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>빠른 성능</h3>
+                    <p>최적화된 코드와 효율적인 알고리즘으로 빠르고 안정적인 앱 성능 보장</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>안전한 보안</h3>
+                    <p>사용자 데이터 보호를 최우선으로 하는 강력한 보안 시스템 구축</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>네이티브 최적화</h3>
+                    <p>iOS 생태계에 완벽히 최적화된 네이티브 앱 개발로 최상의 사용자 경험 제공</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">안녕하세요, RonyKorea입니다</h2>
+                    <p>iOS 개발에 열정을 가진 개발자로서, 사용자의 삶을 더 편리하고 즐겁게 만드는 앱을 만들고 있습니다.</p>
+                    <p>Swift와 SwiftUI를 주로 사용하며, 최신 iOS 기술을 활용하여 혁신적인 모바일 솔루션을 제공합니다.</p>
+                    <div class="skills">
+                        <h3>기술 스택</h3>
+                        <div class="skills-list">
+                            <span class="skill-tag">Swift</span>
+                            <span class="skill-tag">SwiftUI</span>
+                            <span class="skill-tag">UIKit</span>
+                            <span class="skill-tag">Core Data</span>
+                            <span class="skill-tag">CloudKit</span>
+                            <span class="skill-tag">ARKit</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <h3>5+</h3>
+                        <p>개발 경험</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>10+</h3>
+                        <p>출시 앱</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>50K+</h3>
+                        <p>다운로드</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">연락하기</h2>
+            <p class="section-subtitle">새로운 프로젝트나 협업에 관심이 있으시다면 언제든 연락해주세요.</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>이메일</h3>
+                            <p>contact@ronykorea.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h3>GitHub</h3>
+                            <p>github.com/ronykorea</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h3>LinkedIn</h3>
+                            <p>linkedin.com/in/ronykorea</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="이름" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="이메일" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="메시지" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">메시지 보내기</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <h3>RonyKorea</h3>
+                    <p>혁신적인 iOS 앱 개발자</p>
+                </div>
+                <div class="footer-right">
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 RonyKorea. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
